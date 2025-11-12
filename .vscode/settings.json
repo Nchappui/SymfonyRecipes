@@ -1,0 +1,7 @@
+{
+    "intelephense.environment.phpVersion": "8.3",
+    "[twig]": {
+        "editor.defaultFormatter": "mblode.twig-language-2",
+        "editor.formatOnSave": false
+    }
+}

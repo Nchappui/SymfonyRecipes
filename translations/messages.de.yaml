@@ -1,0 +1,9 @@
+vich_uploader.form_label.delete_confirm: 'Löschen?'
+vich_uploader.link.download: herunterladen
+firstName: __firstName
+lastName: __lastName
+email: __email
+content: __content
+toService: __toService
+send: __send
+Welcome!: __Welcome!

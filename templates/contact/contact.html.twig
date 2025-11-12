@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Contact
+{% endblock %}
+
+{% block body %}
+	<h1> Send us a message! </h1>
+
+    {{ form_start(form)}}
+    <div class="d-flex">
+        <div class="col-sm me-1">{{form_row(form.firstName)}}</div>
+        <div class="col-sm ms-1">{{form_row(form.lastName)}}</div>
+    </div>
+    <div class="d-flex">
+        <div class="col-sm me-1">{{form_row(form.email)}}</div>
+        <div class="col-sm ms-1">{{form_row(form.toService)}}</div>
+    </div>
+    {{ form_end(form) }}
+{% endblock %}
